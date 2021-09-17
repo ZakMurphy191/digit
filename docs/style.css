@@ -1,17 +1,8 @@
 /* This is a comment in CSS. */
-body {color: indigo;
+body {color: black;
 font-family: arial, helvetica, sans-serif; }
-/* CSS inheritance rules indicate that all elements inside the body will inherit the color and font-family properties that I set here on this BIG container element */
 
-/*body section section { background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet); padding:2em;}
-body section {background-image: url("images/littleNewt.jpg"); padding:2em;}*/
-
-body section.gallery {background-color: lavender; background-image: none; padding:2em; margin:auto;}
-
-/* ebb: This is a comment in CSS: 
- * Notice that the properties I set on the <body> element get passed down to elements inside it. So all my text is the color and font that I set here. 
- * If I want to change the styling of internal elements, I can just enter their names and apply CSS properties to them, following CSS syntax. 
- */
+body section.gallery {background-color: black; background-image: none; padding:2em; margin:auto;}
 
 figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw;}
 figcaption {font-style: italic; font-size: smaller;}
