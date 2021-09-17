@@ -1,8 +1,8 @@
 
-body {color: black;
-font-family: arial, helvetica, sans-serif; }
+body {color: blue;
+font-family: copperplate, fantasy, sans-serif; }
 
-body section.gallery {background-color: white; background-image: none; padding:2em; margin:auto;}
+body section.gallery {background-color: black; background-image: none; padding:2em; margin:auto;}
 
 figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw;}
 figcaption {font-style: italic; font-size: smaller;}
