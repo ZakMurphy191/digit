@@ -1,7 +1,7 @@
 
 body {color: blue;
 font-family: copperplate, fantasy, sans-serif; }
-body section.gallery {background-color: rgb(0,0,0) background-image: none; padding:2em; margin:auto;}
+body section.gallery {background-color:(0,0,0); background-image: none; padding:2em; margin:auto;}
 
 figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw;}
 figcaption {font-style: italic; font-size: smaller;}
