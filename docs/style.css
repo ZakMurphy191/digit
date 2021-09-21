@@ -1,7 +1,6 @@
 
 body {color: blue;
 font-family: copperplate, fantasy, sans-serif; }
-
 body section.gallery {background-color: black; background-image: none; padding:2em; margin:auto;}
 
 figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw;}
@@ -13,33 +12,23 @@ ol {list-style-type: lower-alpha;
 padding: 5em;
     
 }
-
-
 a:link {
   color: blue;
 }
-
-
 a:visited {
   color: #006600;
 }
-
 a:hover {
   color: blue;
 }
-
-
 a:active {
   color: blue;
 }
-
 nav.menuA {text-align: center; font-size: 3vw; }
 
  nav ul.menuB {
-  list-style-type: none;
-  
+  list-style-type: none;  
 }
-
 nav ul.menuB li {display:inline; font-size: 2vw; padding:2vw;}
 
 nav#menu {padding:2vw; }
