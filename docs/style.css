@@ -16,7 +16,7 @@ a:link {
   color: blue;
 }
 a:visited {
-  color: #006600;
+  color: #006600;/* zm, this is green i hate it */
 }
 a:hover {
   color: blue;
