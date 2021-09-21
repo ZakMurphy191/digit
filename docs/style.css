@@ -24,15 +24,12 @@ a:hover {
 a:active {
   color: blue;
 }
-nav.menuA {text-align: center; font-size: 3vw; }
+/*nav.menuA {text-align: center; font-size: 3vw; }*/
 
- nav ul.menuB {
+nav.menuA ul {
   list-style-type: none;  
 }
-nav ul.menuB li {display:inline; font-size: 2vw; padding:2vw;}
+nav.menuA ul li {display:inline; font-size: 2vw; padding:2vw;}
 
-nav#menu {padding:2vw; }
+
  
- .button { border:2px; border-style:solid; border-color:blue; padding:2vw; background-color:#E6E6FA; color:blue; width:10%; display:inline;
- border-radius: 20px;
- }
