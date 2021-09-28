@@ -1,7 +1,7 @@
 
-body {color: blue;
+body {color: rgb(51,218,255); background-color:black;
 font-family: copperplate, fantasy, sans-serif; }
-body section.gallery {background-color:black; background-image: none; padding:2em; margin:auto;}
+body section.gallery {background-color:black; padding:2em; margin:auto;}
 
 figure {width:30%; margin:auto; padding-top: 1vw; padding-bottom: 1vw;}
 figcaption {font-style: italic; font-size: smaller;}
@@ -16,7 +16,7 @@ a:link {
   color: blue;
 }
 a:visited {
-  color: #006600;/* zm, this is green i hate it */
+  color: blue;/* zm, this is green i hate it */
 }
 a:hover {
   color: blue;
@@ -24,12 +24,13 @@ a:hover {
 a:active {
   color: blue;
 }
-/*nav.menuA {text-align: center; font-size: 3vw; }*/
+nav.menuA {border-top-style:solid; border-bottom-style:solid;
+border-color: white; background-color:rgb(204,255,255)}
 
 nav.menuA ul {
   list-style-type: none;  
 }
 nav.menuA ul li {display:inline; font-size: 2vw; padding:2vw;}
-
+hr{color:white;}
 
  
