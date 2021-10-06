@@ -32,16 +32,16 @@ ol {
 
 }
 a:link {
-    color: black;
+    color: rgb(255, 255, 153);
 }
 a:visited {
-    color: black; /* zm, this is green i hate it */
+    color: rgb(255, 255, 153); /* zm, this is green i hate it */
 }
 a:hover {
-    color: black;
+    color: rgb(255, 255, 153);
 }
 a:active {
-    color: black;
+    color: rgb(255, 255, 153);
 }
 nav.menuA {
     border-top-style: solid;
