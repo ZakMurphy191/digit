@@ -46,8 +46,8 @@ a:active {
 nav.menuA {
     border-top-style: solid;
     border-bottom-style: solid;
-    border-color: black;
-    background-color: rgb(255, 255, 102)
+    border-color: rgb(255, 255, 102);
+    background-color: black
 }
 
 nav.menuA ul {
