@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         
+      </front>
+      <body>
+         <div type="calender" n="1">
+            <opener>
+               <fw type="header" place="top"> rend="bold">COPYRIGHT 1908, BY FRIENSHIP CALENDER CO.
+                  NEW BRITAIN CONN.</fw>
+               <dateline>
+                  <docDate>FRIDAY, MARCH 12, 1909.</docDate>
+               </dateline>
+            </opener>
+         </div>
+         <div type="note" n="2">
+            <ab>Molly ON <witDetail wit="SnowShoes"/> That <persName>MR. WEIR</persName> GoT. PRETTY
+               PicTURE IS IT NOT?!</ab>
+            <figure>
+               <graphic url="Molly%20On%20Snowshoes.jpg"></graphic>
+            </figure>
+         </div>
+         <closer rend="cursive"> Love From <persName>Mary</persName>
+         </closer>
+      </body>
+   </text>
+  
+</TEI>
