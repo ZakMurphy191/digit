@@ -1,6 +1,6 @@
 
 body {
-    color: rgb(51, 218, 255);
+    color: rgb(255, 255, 102);
     background-color: black;
     font-family: copperplate, fantasy, sans-serif;
 }
@@ -32,22 +32,22 @@ ol {
 
 }
 a:link {
-    color: white;
+    color: black;
 }
 a:visited {
-    color: white; /* zm, this is green i hate it */
+    color: black; /* zm, this is green i hate it */
 }
 a:hover {
-    color: white;
+    color: black;
 }
 a:active {
-    color: white;
+    color: black;
 }
 nav.menuA {
     border-top-style: solid;
     border-bottom-style: solid;
-    border-color: white;
-    background-color: rgb(204, 255, 255)
+    border-color: black;
+    background-color: rgb(255, 255, 102)
 }
 
 nav.menuA ul {
@@ -59,7 +59,7 @@ nav.menuA ul li {
     padding: 2vw;
 }
 hr {
-    color: white;
+    color: black;
 }
 
 div.gallery {
