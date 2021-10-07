@@ -1,0 +1,13 @@
+San Francisco (is a 2-gram)
+The Three Musketeers (is a 3-gram)
+She stood up slowly (is a 4-gram)
+Now which of these three N-grams have you seen quite frequently? Probably, “San Francisco” and “The Three Musketeers”. On the other hand, you might not have seen “She stood up slowly” that frequently. Basically, “She stood up slowly” is an example of an N-gram that does not occur as often in sentences as Examples 1 and 2.
+
+Now if we assign a probability to the occurrence of an N-gram or the probability of a word occurring next in a sequence of words, it can be very useful. Why?
+
+First of all, it can help in deciding which N-grams can be chunked together to form single entities (like “San Francisco” chunked together as one word, “high school” being chunked as one word).
+
+It can also help make next word predictions. Say you have the partial sentence “Please hand over your”. Then it is more likely that the next word is going to be “test” or “assignment” or “paper” than the next word being “school”.
+
+It can also help to make spelling error corrections. For instance, the sentence “drink cofee” could be corrected to “drink coffee” if you knew that the word “coffee” had a high probability of occurrence after the word “drink” and also the overlap of letters between “cofee” and “coffee” is high.
+As you can see, assigning these probabilities has a huge potential in the NLP domain.
