@@ -190,13 +190,10 @@ figure {
 .demo:hover {
     opacity: 1;
 }
+.row {
+  display: flex;
+}
 .column {
-  float: left;
-  width: 50%;
+  flex: 33.33%;
   padding: 5px;
-  }
-  .row::after {
-  content: "";
-  clear: both;
-  display: table;
   }
